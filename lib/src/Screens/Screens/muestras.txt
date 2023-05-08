@@ -1,0 +1,21 @@
+SearchMapPlaceWidget(
+                  placeType: PlaceType.address,
+                  onSearch: (Place place) {
+                 
+                  },
+                  iconColor: Colors.black,
+                  hasClearButton: true,
+                  placeholder: 'Busca Tu Ubicacion aqui',
+                  bgColor: Colors.white,
+                  textColor: Colors.black,
+                  apiKey: apiKey,
+                  onSelected: (Place place) async {
+                    Geolocation? geolocation = await place.geolocation;
+
+                    mapController.animateCamera(
+                      CameraUpdate.newLatLng(geolocation?.coordinates),
+                    );
+                    mapController.animateCamera(
+                        CameraUpdate.newLatLngBounds(geolocation?.bounds, 0));
+                  },
+                ),

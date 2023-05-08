@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "146559378500",
+    "project_id": "transbus-3d789",
+    "storage_bucket": "transbus-3d789.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146559378500:android:d6aabf07bfe51d45770811",
+        "android_client_info": {
+          "package_name": "com.example.mibus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146559378500-p7rcohsat0o0fuv23apk7khlmtncv27e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpsBRCSffsCgBs7_snysd5KyvJ-h4pArw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146559378500-p7rcohsat0o0fuv23apk7khlmtncv27e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
